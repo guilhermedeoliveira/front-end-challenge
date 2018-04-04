@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
+import PromotionsContainer from './promotions/PromotionsContainer';
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1 className="App-title">Welcome to React</h1>
-      </div>
+      <PromotionsContainer />
     );
   }
 }
