@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { InputText } from 'primereact/components/inputtext/InputText';
 
 import { Input } from './Form.styles';
 
@@ -31,25 +32,25 @@ class Form extends Component {
           <option value="2.0">2.0</option>
           <option value="2.2">2.2</option>
         </select>
-        <Input
+        <InputText
           type="text"
           placeholder="Nome*"
           value={this.state.name}
           onChange={e => this.handleChange(e, 'name')}
         />
-        <Input
+        <InputText
           type="text"
           placeholder="E-mail*"
           value={this.state.email}
           onChange={e => this.handleChange(e, 'email')}
         />
-        <Input
+        <InputText
           type="text"
           placeholder="Telefone*"
           value={this.state.phone}
           onChange={e => this.handleChange(e, 'phone')}
         />
-        <Input
+        <InputText
           type="text"
           placeholder="Valor de entrada*"
           value={this.state.value}
