@@ -18,9 +18,9 @@ class FooterContainer extends Component {
             <ContainerTopCenter>
               <h3>Copyright</h3>
               <ContainerTopCenterRow>
-                <p>Visitar site</p>
-                <p>Contato</p>
-                <p>Política de Privacidade</p>
+                <a href="#">Visitar site</a>
+                <a href="#">Contato</a>
+                <a href="#">Política de Privacidade</a>
               </ContainerTopCenterRow>
             </ContainerTopCenter>
           <FooterSocial />

@@ -12,7 +12,12 @@ class PromotionsContainer extends Component {
     return (
       <Container>
         {data.map(prom => (
-          <Promotion header={prom.header} main={prom.main} text={prom.text} />
+          <Promotion
+            key={prom.header}
+            header={prom.header}
+            main={prom.main}
+            text={prom.text}
+          />
         ))}
       </Container>
     );
