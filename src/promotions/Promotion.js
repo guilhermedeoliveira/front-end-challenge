@@ -17,8 +17,8 @@ const Promotion = ({ header, main, text }) => (
 );
 
 Promotion.propTypes = {
-  header: string.isRequired
-  main: string.isRequired
+  header: string.isRequired,
+  main: string.isRequired,
   text: string.isRequired
 }
 
