@@ -6,7 +6,11 @@ import {
   ContainerTop,
   ContainerTopCenter,
   ContainerTopCenterRow,
-  ContainerBottom
+  ContainerBottom,
+  TextFooter,
+  Anchor,
+  LogoGrandMotors,
+  LogoAutoForce
 } from './Footer.styles';
 
 class FooterContainer extends Component {
@@ -14,19 +18,21 @@ class FooterContainer extends Component {
     return (
       <Container>
         <ContainerTop>
-          <h3>GRAND MOTORS</h3>
+          <LogoGrandMotors />
             <ContainerTopCenter>
-              <h3>Copyright</h3>
+              <TextFooter>
+                &copy; Copyright 2015 - Cliente - Todos os direitos reservados.
+              </TextFooter>
               <ContainerTopCenterRow>
-                <a href="#">Visitar site</a>
-                <a href="#">Contato</a>
-                <a href="#">Política de Privacidade</a>
+                <Anchor>Visitar site</Anchor>
+                <Anchor>Contato</Anchor>
+                <Anchor>Política de Privacidade</Anchor>
               </ContainerTopCenterRow>
             </ContainerTopCenter>
           <FooterSocial />
         </ContainerTop>
         <ContainerBottom>
-          <h4>auto force</h4>
+          <LogoAutoForce />
         </ContainerBottom>
       </Container>
     );

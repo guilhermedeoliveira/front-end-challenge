@@ -6,19 +6,26 @@ import FaGooglePlus from 'react-icons/lib/fa/google-plus';
 
 import {
   ContainerFooterSocial,
-  ContainerFooterSocialItem
+  ContainerFooterSocialItem,
+  SocialLink
 } from './Footer.styles';
 
 const FooterSocial = () => (
   <ContainerFooterSocial>
     <ContainerFooterSocialItem>
-      <FaFacebook size={16} />
+      <SocialLink link="https://facebook.com">
+        <FaFacebook size={16} />
+      </SocialLink>
     </ContainerFooterSocialItem>
     <ContainerFooterSocialItem>
-      <FaTwitter size={16} />
+      <SocialLink link="https://twitter.com">
+        <FaTwitter size={16} />
+      </SocialLink>
     </ContainerFooterSocialItem>
     <ContainerFooterSocialItem>
-      <FaGooglePlus size={16} />
+      <SocialLink link="https://plus.google.com.com">
+        <FaGooglePlus size={16} />
+      </SocialLink>
     </ContainerFooterSocialItem>
   </ContainerFooterSocial>
 );
