@@ -17,24 +17,18 @@ export const ContainerTop = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  border: 2px solid pink;
 `;
 
 export const ContainerTopCenter = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  border: 2px solid green;
 `;
 
 export const ContainerTopCenterRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  border: 2px solid blue;
 `;
 
 export const ContainerBottom = styled.div`
@@ -42,16 +36,12 @@ export const ContainerBottom = styled.div`
   justify-content: center;
   align-items: center;
   height: 5em;
-
-  border: 2px solid yellow;
 `;
 
 export const ContainerFooterSocial = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border: 2px solid red;
 `;
 
 export const ContainerFooterSocialItem = styled.div`
@@ -102,4 +92,5 @@ export const Anchor = styled.a.attrs({
   font-size: ${styles.fonts.fontSizeSmall}px;
   font-weight: ${styles.weights.fontWeightLight};
   color: ${styles.colors.gray};
+  margin-right: 1em;
 `;
