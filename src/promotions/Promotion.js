@@ -1,15 +1,25 @@
 import React from 'react';
+import { string } from 'prop-types';
 
 import {
-  ContainerPromotion    
+  ContainerPromotion,
+  Header,
+  Main,
+  Text
 } from './Promotions.styles';
 
 const Promotion = ({ header, main, text }) => (
   <ContainerPromotion>
-    <h1>{header}</h1>
-    <h1>{main}</h1>
-    <p>{text}</p>
+    <Header>{header}</Header>
+    <Main>{main}</Main>
+    <Text>{text}</Text>
   </ContainerPromotion>
 );
+
+Promotion.propTypes = {
+  header: string.isRequired
+  main: string.isRequired
+  text: string.isRequired
+}
 
 export default Promotion;

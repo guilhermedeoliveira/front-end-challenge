@@ -14,6 +14,7 @@ export default {
     fontSizeH6: Math.ceil(fontSizeBase * 0.85) // 12px
   },
   weights: {
+    fontWeightThin: 100,
     fontWeightLight: 200
   },
   colors: {
@@ -21,9 +22,10 @@ export default {
     linkColor: '#04669c',
     gray: '#c6c6c6',
     grayDarker: '#2a2a2a',
-    grayBase: '$242424',
+    grayBase: '#242424',
     grayLight: '#eaeaea',
-    white: '#fff'
-    // linkHoverColor: 
+    white: '#fff',
+    wine: '#722f37',
+    promotion: '#FF0084'
   }
 }
