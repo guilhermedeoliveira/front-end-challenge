@@ -6,7 +6,7 @@ export const ContainerSocial = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 2em;
+  height: 1.65em;
   margin-right: 0.5em;
 `;
 

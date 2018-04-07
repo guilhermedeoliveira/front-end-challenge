@@ -64,6 +64,7 @@ export const Input = styled.input`
   border-radius: 5px;
   background: transparent;
   padding-left: 1em;
+  color: ${styles.colors.white};
 `;
 
 export const Button = styled.button`
