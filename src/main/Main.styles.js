@@ -6,7 +6,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   background-color: ${styles.colors.colorBackgroundLight};
-  margin: 80px 0; 
+  padding-bottom: 1em;
 `;
 
 export const ContainerDescription = styled.div`
