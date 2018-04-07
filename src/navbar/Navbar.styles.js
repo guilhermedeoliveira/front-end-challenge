@@ -10,6 +10,13 @@ export const Container = styled.div`
 `;
 
 // transform: scale(0.5,0.5);
-export const ImageGrandMotors = styled.img.attrs({ source: grandMotors })`
+export const ImageGrandMotors = styled.img.attrs({ src: grandMotors })`
 
 `;
+
+export const Services = styled.p`
+  cursor: pointer;
+`;
+
+// export const Dropdown = styled.select.attrs({
+export const Dropdown = styled.select``;

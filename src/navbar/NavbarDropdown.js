@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
-import { Dropdown } from 'primereact/components/dropdown/Dropdown';
+// import { Dropdown } from 'primereact/components/dropdown/Dropdown';
+// import { Dropdown } from './Navbar.styles';
+import Select from 'react-select';
+import 'react-select/dist/react-select.css';
 
-const cars = [
-    { label: 'ETIOS', value: 'Etios' },
-    { label: 'COROLLA', value: 'Corolla' },
-    { label: 'HILUX', value: 'Hilux' },
-    { label: 'PRIUS', value: 'Prius' },
-    { label: 'CAMRY', value: 'Camry' }
-]
+import { dropdownStyles } from './navbarData';
 
 class NavbarDropdown extends Component {
-  state = {
-    car: null,
-  }
+  state = { selectedOption: '' }
 
-  onChangeCar = (e) => this.setState({ car: e.value });
+  handleChange = (selectedOption) => this.setState({ selectedOption });
 
   render() {
+    const { selectedOption } = this.state;
+    const value = selectedOption && selectedOption.value;
+
     return (
-      <Dropdown
+      <Select
+        name="dropdown"
+        style={dropdownStyles}
+        clearable={false}
+        options={this.props.data}
+        value={value}
+        onChange={this.handleChange}
         placeholder="NOSSOS VEÍCULOS"
-        value={this.state.car}
-        options={cars}
-        onChange={this.onChangeCar}
-        style={{ width:'350px' }}
       />
     );
   }

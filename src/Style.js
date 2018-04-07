@@ -33,6 +33,7 @@ export default {
     wine: '#722f37',
     promotion: '#FF0084',
     colorFacebook: '#3c599f',
+    transparent: 'transparent',
     colorBackgroundBase: '#2a2a2a',
     colorBackgroundLight: lighten(0.08, '#2a2a2a'),
     colorBackgroundDark: darken(0.15, '#2a2a2a')
