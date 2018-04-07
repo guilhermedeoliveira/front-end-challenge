@@ -9,9 +9,7 @@ export const Container = styled.div`
   width: 25%;
   background-color: ${styles.colors.colorBackgroundLight};
   padding-bottom: 1em;
-
-  margin: 100px auto;
-  border: 2px solid green;
+  margin-left: 14rem;  
 `;
 
 export const ContainerHeader = styled.div`
@@ -90,7 +88,6 @@ export const StyledRadioGroup = styled(RadioGroup)`
   justify-content: space-between;
   margin-top: 0.5em;
   margin-bottom: 1em;
-  
   position: relative;
   left -0.3em;
 `;

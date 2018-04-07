@@ -16,4 +16,4 @@ injectGlobal`
   }
 `;
 
-export const MainContainer = styled.div``;
+export const LandingContainer = styled.div``;

@@ -1,27 +1,23 @@
 import React, { Component } from 'react';
 
-import { MainContainer } from './GlobalStyle';
+import { LandingContainer } from './GlobalStyle';
 
 import Navbar from './navbar/NavbarContainer';
 import PromotionsContainer from './promotions/PromotionsContainer';
-import FooterContainer from './footer/FooterContainer';
-import FormContainer from './form/FormContainer';
+import MainContainer from './main/MainContainer';
 import InfoContainer from './info/InfoContainer';
 import CarouselContainer from './carousel/CarouselContainer';
+import FooterContainer from './footer/FooterContainer';
 
-class App extends Component {
-  render() {
-    return (
-      <MainContainer>
-        <Navbar />
-        <FormContainer />
-        <PromotionsContainer />
-        <InfoContainer />
-        <CarouselContainer />
-        <FooterContainer />
-      </MainContainer>
-    );
-  }
-}
-
+const App = () => (
+  <LandingContainer>
+    <Navbar />
+    <MainContainer />
+    <PromotionsContainer />
+    <InfoContainer />
+    <CarouselContainer />
+    <FooterContainer />
+  </LandingContainer>
+);
+  
 export default App;
