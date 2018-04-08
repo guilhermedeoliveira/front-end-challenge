@@ -2,26 +2,44 @@ import styled from 'styled-components';
 
 import styles from '../Style';
 
-import grandMotors from '../assets/images/logo-grand-motors.png';
+import grandMotors from '../assets/images/logo-grand-motors-production.png';
+import toyota from '../assets/images/logo-toyota-branca.png';
 
-export const Container = styled.div`
+export const Container = styled.nav`
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
+  align-items: center;
   background-color: gray;
+  padding-left: 13em;
+  height: 5em;
 `;
 
-// transform: scale(0.5,0.5);
-export const ImageGrandMotors = styled.img.attrs({
-  src: grandMotors
+export const ContainerLogoGrandMotors = styled.div`
+  width: 23%;
+`;
+
+export const ContainerLogoToyota = styled.div``;
+
+export const ContainerMenu = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+`;
+
+export const Image = styled.img.attrs({
+  src: (props) => props.image,
+  alt: (props) => props.alt
 })`
-  transform: scale(0.85, 0.85);
+  transform: scale(${props => props.scale}, ${props => props.scale});
 `;
 
 export const Services = styled.p`
+  position: relative;
+  top: -0.2em;
   cursor: pointer;
+  font-size: ${styles.fonts.fontSizeSmall}px;
+  font-weight: ${styles.weights.fontWeightThin};
   color: ${styles.colors.white};
+  margin-bottom: 0;
 `;
-
-// export const Dropdown = styled.select.attrs({
-export const Dropdown = styled.select``;

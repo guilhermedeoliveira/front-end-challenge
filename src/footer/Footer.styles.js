@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import styles from '../Style';
 
 import autoForce from '../assets/images/auto-force-logo.png';
-import grandMotors from '../assets/images/logo-grand-motors.png';
+import grandMotors from '../assets/images/logo-grand-motors-production.png';
 
 export const Container = styled.footer`
   display: flex;

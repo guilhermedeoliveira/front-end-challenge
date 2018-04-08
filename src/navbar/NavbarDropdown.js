@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import { Dropdown } from 'primereact/components/dropdown/Dropdown';
-// import { Dropdown } from './Navbar.styles';
 import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 

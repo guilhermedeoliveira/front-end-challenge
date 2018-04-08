@@ -21,9 +21,11 @@ export const phones = [
 ];
 
 export const dropdownStyles = {
-  width: '10em',
-  fontSize: '10px',
+  width: '13em',
+  fontSize: `${styles.fonts.fontSizeSmall}px`,
   color: styles.colors.white,
   backgroundColor: styles.colors.transparent,
   borderWidth: 0
+
+  // border: '2px solid green',
 };
