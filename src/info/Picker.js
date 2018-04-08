@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
-import { Option, Item } from './Info.styles';
+import {
+  Option,
+  Item,
+  ContainerLeft,
+  ContainerItem,
+  Title
+} from './Info.styles';
 
 import { tableItems } from './infoData';
 
@@ -8,19 +14,19 @@ class Picker extends Component {
   onClickItem = item => alert(`Você escolheu o item ${item}`);
 
   renderItems() {
-    return (tableItems.map(item => (
-      <Option>
-          <Item onClick={() => this.onClickItem(item.name)}>{item.name}</Item>
-      </Option>
-    ))
-  )
+    return (
+      tableItems.map(item => (<Item onClick={() => this.onClickItem(item.name)}>{item.name}</Item>))
+    );
   }
 
   render() {
     return (
-      <React.Fragment>
-        {this.renderItems()}
-      </React.Fragment>
+      <ContainerLeft>
+        <Title>Versões</Title>
+        <ContainerItem>
+          {this.renderItems()}
+        </ContainerItem>
+      </ContainerLeft>
     );
   }
 }

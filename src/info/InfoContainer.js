@@ -8,7 +8,9 @@ import {
   Container,
   ContainerTop,
   ContainerBottom,  
-  ContainerTable
+  ContainerTable,
+  TableTitle,
+  TitleSerieItems
 } from './Info.styles';
 
 class InfoContainer extends Component {
@@ -18,11 +20,12 @@ class InfoContainer extends Component {
         <ContainerTop>
           <Picker />
           <ContainerTable>
-            <h3>Informações Gerais</h3>
+            <TableTitle>Informações Gerais</TableTitle>
             <Table />
           </ContainerTable>
         </ContainerTop>
         <ContainerBottom>
+          <TitleSerieItems>Ítens de série</TitleSerieItems>
           <SerieItems />
         </ContainerBottom>
       </Container>
