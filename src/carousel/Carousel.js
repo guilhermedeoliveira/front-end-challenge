@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 
 import CarouselItem from './CarouselItem';
+import CustomArrow from './CustomArrow';
 
+import {
+  ContainerCarouselItem,
+  ImageCarousel
+} from './Carousel.styles'
+
+import styles from '../Style';
 import data from './carouselData';
 
 class Carousel extends Component {
@@ -11,12 +18,13 @@ class Carousel extends Component {
       <Slider
         dots
         infinite
-        arrows
         speed={500}
-        slidesToShow={1}
-        slidesToScroll={1}
+        slidesToShow={5}
+        slidesToScroll={5}
+        nextArrow={<CustomArrow />}
+        prevArrow={<CustomArrow />}
       >
-        {data.map(car => <CarouselItem text={car} /* image={data.image} */ /> )}
+        {data.map(item => <CarouselItem item={item} /> )}
       </Slider>
     );
   }
