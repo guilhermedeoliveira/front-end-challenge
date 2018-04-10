@@ -21,14 +21,14 @@ export const ContainerPromotion = styled.div`
 
 export const Header = styled.h2`
   color: ${styles.colors.white};  
-  font-size: ${styles.fonts.fontSizeH2};
+  font-size: ${styles.fonts.fontSizeH3}px;
   font-weight: ${styles.weights.fontWeightThin};
   margin: 0.5em 0;
 `;
 
 export const Main = styled.h1`
   color: ${styles.colors.promotion};
-  font-size: ${styles.fonts.fontSizeH1};
+  font-size: ${styles.fonts.fontSizeH1}px;
   font-weight: ${styles.weights.fontWeightLight};
   margin: 0;
 `;

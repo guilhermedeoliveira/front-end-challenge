@@ -3,25 +3,19 @@ import styled from 'styled-components';
 import styles from '../Style';
 
 export const Container = styled.section`
-  
-
   background-color: ${styles.colors.colorBackgroundBase};
-  border 2px solid yellow;
+  padding: 0 12em;
+  padding-bottom: 1em;
 `;
 
 export const ContainerTop = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 3em 0 15em;
-
-  border 2px solid red;
 `;
 
 export const ContainerBottom = styled.div`
-
-  padding-left: 40%;
-  border 2px solid blue;
+  padding-left: 25%;
 `;
 
 export const StyledTable = styled.table`
@@ -34,15 +28,46 @@ export const StyledTable = styled.table`
   }
 `;
 
-export const ContainerTable = styled.div`
+export const ContainerTable = styled.div``;
 
-  
-  border: 2px solid green;
+export const ContainerTableData = styled.div`
+  &:nth-child(even){
+    background-color: #f2f2f2;
+  }
+
+  &:nth-child(even){
+    background-color: #f8f5f5;
+  }
+`;
+
+export const ContainerTableRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+`;
+
+export const ContainerTableRowDesc = styled.div`
+  width: 60%;
+  margin-right: 1em;
+`;
+
+export const ContainerTableSpecs = styled.div`
+  width: 40%;
+`;
+
+export const RowDesc = styled.td`
+  font-size: ${styles.fonts.fontSizeBase}px;
+`;
+
+export const RowSpecs = styled.td`
+  color: ${styles.colors.promotion};
+  font-size: ${styles.fonts.fontSizeBase}px;
 `;
 
 export const TableTitle = styled.h3`
   color: ${styles.colors.white};
-`
+  margin-bottom: 0.5em;
+`;
 
 export const Option = styled.div`
   border-bottom: 1px solid gray;
@@ -60,8 +85,7 @@ export const Title = styled.h3`
 
 export const TitleSerieItems = styled.h3`
   color: ${styles.colors.white};
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.5em 0;
 `;
 
 export const ContainerItem = styled.div`
@@ -78,10 +102,11 @@ export const Item = styled.p`
 `;
 
 export const Chip = styled.span`
+  display: inline-block;
   color: ${styles.colors.white};
   background-color: ${styles.colors.promotion};
   font-size: ${styles.fonts.fontSizeSmall}px;
   padding: 0.25em 0.5em;
-  margin-right: 0.5em;
+  margin: 0 0.5em 0.75em 0;
   border-radius: 20px;
 `;

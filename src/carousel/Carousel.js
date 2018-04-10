@@ -24,7 +24,7 @@ class Carousel extends Component {
         nextArrow={<CustomArrow />}
         prevArrow={<CustomArrow />}
       >
-        {data.map(item => <CarouselItem item={item} /> )}
+        {data.map((item, i) => <CarouselItem key={i} item={item} /> )}
       </Slider>
     );
   }

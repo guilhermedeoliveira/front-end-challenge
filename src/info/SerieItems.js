@@ -5,8 +5,8 @@ import { serieItems } from './infoData';
 import { Chip } from './Info.styles';
 
 const SerieItems = () => {
-  return (serieItems.map(data => (
-    <Chip>{data}</Chip>
+  return (serieItems.map((data, i) => (
+    <Chip key={i}>{data}</Chip>
   )))
 };
 

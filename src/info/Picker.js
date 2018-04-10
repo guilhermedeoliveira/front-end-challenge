@@ -15,7 +15,14 @@ class Picker extends Component {
 
   renderItems() {
     return (
-      tableItems.map(item => (<Item onClick={() => this.onClickItem(item.name)}>{item.name}</Item>))
+      tableItems.map(item => (
+        <Item
+          key={item.name}
+          onClick={() => this.onClickItem(item.name)}
+        >
+          {item.name}
+        </Item>
+      ))
     );
   }
 
