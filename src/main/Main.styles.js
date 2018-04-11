@@ -10,12 +10,15 @@ export const Container = styled.section`
 `;
 
 export const Video = styled.video`
-  width: 100%;
-  height: 100%;
-  min-width: 100%; 
-  min-height: 100%; 
-  z-index: -1;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
 `;
 
 export const ContainerDescription = styled.div`
