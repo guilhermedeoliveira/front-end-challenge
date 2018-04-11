@@ -39,7 +39,7 @@ export const ImageCarouselItem = styled.img.attrs({
   src: props => props.image,
   alt: 'Car'
 })`
-  transform: scale(0.5, 0.5);
+  transform: scale(0.8, 0.6);
 `;
 
 export const TextCarouselItem = styled.p`
