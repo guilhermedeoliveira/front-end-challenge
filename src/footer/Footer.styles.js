@@ -11,6 +11,7 @@ export const Container = styled.footer`
   justify-content: space-between;
   padding: 0 6em;
   background-color: ${styles.colors.grayDarker};
+  padding-top: 1em;
 `;
 
 export const ContainerTop = styled.div`
@@ -29,6 +30,8 @@ export const ContainerTopCenterRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  right: 1.5em;
 `;
 
 export const ContainerBottom = styled.div`
@@ -69,6 +72,8 @@ export const TextFooter = styled.h3`
   font-size: ${styles.fonts.fontSizeSmall}px;
   font-weight: ${styles.weights.fontWeightLight};
   color: ${styles.colors.gray};
+  position: relative;
+  right: 2.5em;
 `;
 
 export const LogoGrandMotors = styled.img.attrs({
