@@ -2,10 +2,15 @@ import styled from 'styled-components';
 
 import styles from '../Style';
 
+import carImage from '../assets/images/car-image.jpg';
+
 export const Container = styled.section`
-  background-color: ${styles.colors.colorBackgroundBase};
   padding: 0 12em;
   padding-bottom: 1em;
+  
+  background: url(${carImage});
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 export const ContainerTop = styled.div`
@@ -32,11 +37,11 @@ export const ContainerTable = styled.div``;
 
 export const ContainerTableData = styled.div`
   &:nth-child(even){
-    background-color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.1)
   }
 
   &:nth-child(even){
-    background-color: #f8f5f5;
+    background-color: rgba(255,255,255, 0.1)
   }
 `;
 
@@ -44,6 +49,7 @@ export const ContainerTableRow = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 0.5em;
+  padding: 0.3em;
 `;
 
 export const ContainerTableRowDesc = styled.div`
@@ -97,8 +103,8 @@ export const Item = styled.p`
   cursor: pointer;
   padding-bottom: 0.5em;
   font-size: ${styles.fonts.fontSizeH5}px;
-
   border-bottom: 0.3px solid ${styles.colors.colorBackgroundLight};
+  color: ${styles.colors.gray};
 `;
 
 export const Chip = styled.span`

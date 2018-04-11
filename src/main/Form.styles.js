@@ -6,16 +6,15 @@ import styles from '../Style';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 25%;
-  background-color: ${styles.colors.colorBackgroundLight};
+  width: 25%;  
   padding-bottom: 1em;
-  margin-left: 14rem;  
+  margin-left: 14rem;
 `;
 
 export const ContainerHeader = styled.div`
   text-align: center;
 `;
- 
+
 export const Header = styled.h4`
   font-size: ${styles.fonts.fontSizeH4}px;
   color: ${styles.colors.white};

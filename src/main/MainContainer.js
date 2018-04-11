@@ -4,6 +4,7 @@ import FormContainer from './FormContainer';
 import Social from './Social';
 import {
   Container,
+  Video,
   ContainerDescription,
   ContainerRight,
   SpanOldPrice,
@@ -19,8 +20,13 @@ import {
   TextIllustrativeImages
 } from './Main.styles';
 
+import carVideo from '../assets/videos/video-toyota.mp4';
+
 const MainContainer = () => (
   <Container>
+    <Video autoPlay loop muted>
+      <source src={carVideo} type="video/mp4" />
+    </Video>
     <FormContainer />
     <ContainerRight>
       <ContainerDescription>

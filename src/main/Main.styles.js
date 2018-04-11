@@ -4,9 +4,18 @@ import styles from '../Style';
 
 export const Container = styled.section`
   display: flex;
-  flex-direction: row;
-  background-color: ${styles.colors.colorBackgroundLight};
+  flex-direction: row;  
+  padding: 0;
   padding-bottom: 1em;
+`;
+
+export const Video = styled.video`
+  width: 100%;
+  height: 100%;
+  min-width: 100%; 
+  min-height: 100%; 
+  z-index: -1;
+  position: absolute;
 `;
 
 export const ContainerDescription = styled.div`
