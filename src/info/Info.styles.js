@@ -49,7 +49,6 @@ export const ContainerTableRow = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 0.5em;
-  padding: 0.3em;
 `;
 
 export const ContainerTableRowDesc = styled.div`
@@ -61,13 +60,15 @@ export const ContainerTableSpecs = styled.div`
   width: 40%;
 `;
 
-export const RowDesc = styled.td`
+export const RowDesc = styled.p`
   font-size: ${styles.fonts.fontSizeBase}px;
+  margin: 0.5em;
 `;
 
-export const RowSpecs = styled.td`
+export const RowSpecs = styled.p`
   color: ${styles.colors.promotion};
   font-size: ${styles.fonts.fontSizeBase}px;
+  margin: 0.5em;
 `;
 
 export const TableTitle = styled.h3`
