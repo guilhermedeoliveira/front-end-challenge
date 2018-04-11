@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import styles from '../Style';
 
@@ -17,7 +17,15 @@ export const ContainerPromotion = styled.div`
   align-items: center;
   padding: 1.5em 3.5em;
   text-align: center;
+  ${props => props.isBordered && css`
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+  `};
 `;
+
+ContainerPromotion.defaultProps = {
+  isBordered: false
+};
 
 export const Header = styled.h2`
   color: ${styles.colors.white};  

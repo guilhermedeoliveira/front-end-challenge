@@ -11,8 +11,9 @@ class PromotionsContainer extends Component {
   render() {
     return (
       <Container>
-        {data.map(prom => (
+        {data.map((prom, i) => (
           <Promotion
+            isBordered={i === 1}
             key={prom.header}
             header={prom.header}
             main={prom.main}

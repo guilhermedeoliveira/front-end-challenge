@@ -1,5 +1,5 @@
 import React from 'react';
-import { string } from 'prop-types';
+import { string, bool } from 'prop-types';
 
 import {
   ContainerPromotion,
@@ -8,8 +8,8 @@ import {
   Text
 } from './Promotions.styles';
 
-const Promotion = ({ header, main, text }) => (
-  <ContainerPromotion>
+const Promotion = ({ header, main, text, isBordered }) => (
+  <ContainerPromotion isBordered={isBordered}>
     <Header>{header}</Header>
     <Main>{main}</Main>
     <Text>{text}</Text>
@@ -19,7 +19,12 @@ const Promotion = ({ header, main, text }) => (
 Promotion.propTypes = {
   header: string.isRequired,
   main: string.isRequired,
-  text: string.isRequired
-}
+  text: string.isRequired,
+  isBordered: bool
+};
+
+Promotion.defaultProps = {
+  isBordered: false
+};
 
 export default Promotion;
