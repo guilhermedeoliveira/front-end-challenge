@@ -10,7 +10,7 @@ export const Container = styled.section`
   background-color: ${styles.colors.wine};
 `;
 
-export const ContainerPromotion = styled.div`
+export const ContainerCall = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,7 +23,7 @@ export const ContainerPromotion = styled.div`
   `};
 `;
 
-ContainerPromotion.defaultProps = {
+ContainerCall.defaultProps = {
   isBordered: false
 };
 

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 
-import Promotion from './Promotion';
+import Call from './Call';
 import {
   Container
-} from './Promotions.styles';
+} from './Call.styles';
 
-import data from './PromotionsData';
+import data from './callData';
 
-class PromotionsContainer extends Component {
+class CallContainer extends Component {
   render() {
     return (
       <Container>
         {data.map((prom, i) => (
-          <Promotion
+          <Call
             isBordered={i === 1}
             key={prom.header}
             header={prom.header}
@@ -25,4 +25,4 @@ class PromotionsContainer extends Component {
   }
 };
 
-export default PromotionsContainer;
+export default CallContainer;

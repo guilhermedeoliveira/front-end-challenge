@@ -3,11 +3,8 @@ import React from 'react';
 import { LandingContainer } from './GlobalStyle';
 
 import HeaderContainer from './header/HeaderContainer';
-
-// import PromotionsContainer from './promotions/PromotionsContainer';
-import PromotionsContainer from './promotions/PromotionsContainer';
-
 import ShowcaseContainer from './showcase/ShowcaseContainer';
+import CallContainer from './call/CallContainer';
 
 // import InfoContainer from './info/InfoContainer';
 import InfoContainer from './info/InfoContainer';
@@ -21,7 +18,7 @@ const App = () => (
   <LandingContainer>
     <HeaderContainer />
     <ShowcaseContainer />
-    <PromotionsContainer />
+    <CallContainer />
     <InfoContainer />
     <CarouselContainer />
     <FooterContainer />

@@ -2,29 +2,29 @@ import React from 'react';
 import { string, bool } from 'prop-types';
 
 import {
-  ContainerPromotion,
+  ContainerCall,
   Header,
   Main,
   Text
-} from './Promotions.styles';
+} from './Call.styles';
 
-const Promotion = ({ header, main, text, isBordered }) => (
-  <ContainerPromotion isBordered={isBordered}>
+const Call = ({ header, main, text, isBordered }) => (
+  <ContainerCall isBordered={isBordered}>
     <Header>{header}</Header>
     <Main>{main}</Main>
     <Text>{text}</Text>
-  </ContainerPromotion>
+  </ContainerCall>
 );
 
-Promotion.propTypes = {
+Call.propTypes = {
   header: string.isRequired,
   main: string.isRequired,
   text: string.isRequired,
   isBordered: bool
 };
 
-Promotion.defaultProps = {
+Call.defaultProps = {
   isBordered: false
 };
 
-export default Promotion;
+export default Call;
