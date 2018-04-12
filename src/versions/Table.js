@@ -11,8 +11,8 @@ import {
   RowSpecs
 } from './Version.styles';
 
-const Table = () => {
-  return (tableData.map((data, i) => (
+const Table = () => (
+  tableData.map((data, i) => (
     <ContainerTableData key={i}>
       <ContainerTableRow>
         <ContainerTableRowDesc>
@@ -23,8 +23,8 @@ const Table = () => {
         </ContainerTableSpecs>
       </ContainerTableRow>
     </ContainerTableData>
-  )))
-};
+  ))
+);
 
 export default Table;
 
