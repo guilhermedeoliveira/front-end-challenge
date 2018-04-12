@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-import grandMotors from '../assets/images/auto-force-logo.png';
 import styles from '../Style';
 
 export const Container = styled.section`

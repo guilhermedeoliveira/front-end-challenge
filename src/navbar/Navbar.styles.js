@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 import styles from '../Style';
 
-import grandMotors from '../assets/images/logo-grand-motors-production.png';
-import toyota from '../assets/images/logo-toyota-branca.png';
-
 export const Container = styled.nav`
   display: flex;
   flex-direction: row;

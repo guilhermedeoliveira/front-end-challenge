@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Arrow } from './Carousel.styles'
-
 import styles from '../Style';
 
 const CustomArrow = ({

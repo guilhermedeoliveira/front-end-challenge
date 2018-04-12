@@ -4,12 +4,6 @@ import Slider from 'react-slick';
 import CarouselItem from './CarouselItem';
 import CustomArrow from './CustomArrow';
 
-import {
-  ContainerCarouselItem,
-  ImageCarousel
-} from './Carousel.styles'
-
-import styles from '../Style';
 import data from './carouselData';
 
 class Carousel extends Component {
