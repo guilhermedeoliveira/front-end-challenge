@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes, { style } from 'prop-types';
 
 import styles from '../Style';
 
@@ -23,4 +24,13 @@ const CustomArrow = ({
   />
 );
 
+CustomArrow.propTypes = {
+  className: propTypes.string.isRequired,
+  style: propTypes.objectOf(style),
+  onClick: propTypes.func
+};
+
+CustomArrow.defaultProps = {
+  onClick: () => { }
+};
 export default CustomArrow;

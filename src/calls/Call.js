@@ -1,5 +1,5 @@
 import React from 'react';
-import { string, bool } from 'prop-types';
+import propTypes from 'prop-types';
 
 import {
   ContainerCall,
@@ -22,10 +22,10 @@ const Call = ({
 );
 
 Call.propTypes = {
-  header: string.isRequired, // eslint-disable-line
-  main: string.isRequired, // eslint-disable-line
-  text: string.isRequired, // eslint-disable-line
-  isBordered: bool
+  header: propTypes.string.isRequired,
+  main: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
+  isBordered: propTypes.bool
 };
 
 Call.defaultProps = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { string } from 'prop-types';
+import propTypes from 'prop-types';
 
 import styles from '../Style';
 import FaFacebookOfficial from 'react-icons/lib/fa/facebook-official';
@@ -25,8 +25,8 @@ const Social = ({ text, number }) => (
 );
 
 Social.propTypes = {
-  text: string.isRequired, // eslint-disable-line
-  number: string.isRequired // eslint-disable-line
+  text: propTypes.string.isRequired,
+  number: propTypes.string.isRequired
 };
 
 export default Social;
