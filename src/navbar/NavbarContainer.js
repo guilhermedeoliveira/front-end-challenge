@@ -7,7 +7,6 @@ import {
   ContainerLogoToyota,
   ContainerMenu,
   Image,
-  Dropdown,
   Services
 } from './Navbar.styles';
 
@@ -21,7 +20,7 @@ class CarouselContainer extends Component {
     return (
       <Container>
         <ContainerLogoGrandMotors>
-          <a target="_blank" href="https://www.grandbrasil.com.br/toyota">
+          <a href="https://www.grandbrasil.com.br/toyota">
             <Image image={grandMotors} alt="Logo Grand Motors" scale={0.8} />
           </a>
         </ContainerLogoGrandMotors>
@@ -32,7 +31,7 @@ class CarouselContainer extends Component {
           <NavbarDropdown data={phones} placeholder="TELEFONES" />
         </ContainerMenu>
         <ContainerLogoToyota>
-          <a target="_blank" href="https://www.toyota.com.br/">
+          <a href="https://www.toyota.com.br/">
             <Image image={toyota} alt="Logo Toyota" scale={0.6} />
           </a>
         </ContainerLogoToyota>
