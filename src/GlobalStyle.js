@@ -4,15 +4,17 @@ import { injectGlobal } from 'styled-components';
 
 injectGlobal`
   html,
-  body,
+  body {
+    overflow-x: hidden;
+  },
   #root {
     width: 100%;
     height: 100%;
   }
 
   * {
-  box-sizing: border-box;
-  font-family: Dosis, sans-serif;
+    box-sizing: border-box;
+    font-family: Dosis, sans-serif;
   }
 `;
 
