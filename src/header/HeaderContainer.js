@@ -15,7 +15,7 @@ import { cars, sells, phones } from './headerData';
 import grandMotors from '../assets/images/logo-grand-motors-production.png';
 import toyota from '../assets/images/logo-toyota-branca.png';
 
-class CarouselContainer extends Component {
+class HeaderContainer extends Component {
   render() {
     return (
       <Container>
@@ -40,4 +40,4 @@ class CarouselContainer extends Component {
   }
 }
 
-export default CarouselContainer;
+export default HeaderContainer;

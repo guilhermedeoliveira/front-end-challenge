@@ -18,11 +18,11 @@ import {
   TextLike,
   ContainerFacebook,
   TextIllustrativeImages
-} from './Main.styles';
+} from './Showcase.styles';
 
 import carVideo from '../assets/videos/video-toyota.mp4';
 
-const MainContainer = () => (
+const ShowcaseContainer = () => (
   <Container>
     <Video autoPlay loop muted>
       <source src={carVideo} type="video/mp4" />
@@ -51,4 +51,4 @@ const MainContainer = () => (
   </Container>
 );
 
-export default MainContainer;
+export default ShowcaseContainer;
