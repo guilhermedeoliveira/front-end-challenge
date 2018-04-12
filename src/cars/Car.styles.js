@@ -20,7 +20,7 @@ export const TextMeetOurCars = styled.h1`
   font-weight: ${styles.weights.fontWeightThin};
 `;
 
-export const HrCarousel = styled.hr`
+export const HrCar = styled.hr`
   width: 6em;
   border-width: 1px;
   color: ${styles.colors.gray};

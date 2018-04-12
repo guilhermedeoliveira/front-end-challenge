@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
-import Carousel from './Carousel';
+import Car from './Car';
 import {
   Container,
   TextMeetOurCars,
-  HrCarousel
-} from './Carousel.styles';
+  HrCar
+} from './Car.styles';
 
-class CarouselContainer extends Component {
+class CarContainer extends Component {
   render() {
     return (
       <Container>
         <TextMeetOurCars>Conheça nossos carros</TextMeetOurCars>
-        <HrCarousel />
-        <Carousel />
+        <HrCar />
+        <Car />
       </Container>
     );
   }
 }
 
-export default CarouselContainer;
+export default CarContainer;

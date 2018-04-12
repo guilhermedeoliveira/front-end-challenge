@@ -4,7 +4,7 @@ import {
   ContainerCarouselItem,
   ImageCarouselItem,
   TextCarouselItem
-} from './Carousel.styles'
+} from './Car.styles'
 
 const CarouselItem = ({ item }) => (
   <ContainerCarouselItem>

@@ -4,9 +4,9 @@ import Slider from 'react-slick';
 import CarouselItem from './CarouselItem';
 import CustomArrow from './CustomArrow';
 
-import data from './carouselData';
+import data from './carData';
 
-class Carousel extends Component {
+class Car extends Component {
   render() {
     return (
       <Slider
@@ -24,4 +24,4 @@ class Carousel extends Component {
   }
 }
 
-export default Carousel;
+export default Car;

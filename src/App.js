@@ -4,12 +4,9 @@ import { LandingContainer } from './GlobalStyle';
 
 import HeaderContainer from './header/HeaderContainer';
 import ShowcaseContainer from './showcase/ShowcaseContainer';
-import CallContainer from './call/CallContainer';
-import VersionContainer from './version/VersionContainer';
-
-// import CarouselContainer from './carousel/CarouselContainer';
-import CarouselContainer from './carousel/CarouselContainer';
-
+import CallContainer from './calls/CallContainer';
+import VersionContainer from './versions/VersionContainer';
+import CarContainer from './cars/CarContainer';
 import FooterContainer from './footer/FooterContainer';
 
 const App = () => (
@@ -18,7 +15,7 @@ const App = () => (
     <ShowcaseContainer />
     <CallContainer />
     <VersionContainer />
-    <CarouselContainer />
+    <CarContainer />
     <FooterContainer />
   </LandingContainer>
 );
