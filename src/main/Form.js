@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { RadioGroup, Radio } from 'react-radio-group';
 
 import {
   ContainerCheckbox,
@@ -38,8 +37,6 @@ class Form extends Component {
   handleRadio = radio => this.setState({ radio });
 
   render() {
-    const { name } = this.state;
-
     return (
       <form onSubmit={this.handleSubmit}>
         <div>
