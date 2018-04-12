@@ -13,7 +13,7 @@ class HeaderDropdown extends Component {
 
   state = { selectedOption: '' }
 
-  handleChange = (selectedOption) => this.setState({ selectedOption });
+  handleChange = selectedOption => this.setState({ selectedOption });
 
   render() {
     const { data, placeholder } = this.props;
@@ -33,5 +33,5 @@ class HeaderDropdown extends Component {
     );
   }
 }
-  
+
 export default HeaderDropdown;

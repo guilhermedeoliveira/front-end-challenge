@@ -43,8 +43,8 @@ export const ContainerMenu = styled.div`
 `;
 
 export const Image = styled.img.attrs({
-  src: (props) => props.image,
-  alt: (props) => props.alt
+  src: props => props.image,
+  alt: props => props.alt
 })`
   transform: scale(${props => props.scale}, ${props => props.scale});
 `;
