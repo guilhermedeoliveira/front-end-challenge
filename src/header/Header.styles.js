@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import styles from '../Style';
 
-export const Container = styled.nav`
+export const Container = styled.header`
   display: flex;
   flex-direction: row;
   align-items: center;

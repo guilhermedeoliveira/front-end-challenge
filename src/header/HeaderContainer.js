@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import NavbarDropdown from './NavbarDropdown.js';
+import HeaderDropdown from './HeaderDropdown.js';
 import {
   Container,
   ContainerLogoGrandMotors,
@@ -8,9 +8,9 @@ import {
   ContainerMenu,
   Image,
   Services
-} from './Navbar.styles';
+} from './Header.styles';
 
-import { cars, sells, phones } from './navbarData';
+import { cars, sells, phones } from './headerData';
 
 import grandMotors from '../assets/images/logo-grand-motors-production.png';
 import toyota from '../assets/images/logo-toyota-branca.png';
@@ -25,10 +25,10 @@ class CarouselContainer extends Component {
           </a>
         </ContainerLogoGrandMotors>
         <ContainerMenu>
-          <NavbarDropdown data={cars} placeholder="NOSSOS VEÍCULOS" />
+          <HeaderDropdown data={cars} placeholder="NOSSOS VEÍCULOS" />
           <Services>SERVIÇOS</Services>        
-          <NavbarDropdown data={sells} placeholder="VENDAS DIRETAS" />
-          <NavbarDropdown data={phones} placeholder="TELEFONES" />
+          <HeaderDropdown data={sells} placeholder="VENDAS DIRETAS" />
+          <HeaderDropdown data={phones} placeholder="TELEFONES" />
         </ContainerMenu>
         <ContainerLogoToyota>
           <a href="https://www.toyota.com.br/">

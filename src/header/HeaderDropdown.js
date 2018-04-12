@@ -3,9 +3,9 @@ import { array, string } from 'prop-types';
 import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 
-import { dropdownStyles } from './navbarData';
+import { dropdownStyles } from './headerData';
 
-class NavbarDropdown extends Component {
+class HeaderDropdown extends Component {
   static propTypes = {
     data: array.isRequired,
     placeholder: string.isRequired
@@ -34,4 +34,4 @@ class NavbarDropdown extends Component {
   }
 }
   
-export default NavbarDropdown;
+export default HeaderDropdown;
