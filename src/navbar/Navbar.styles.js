@@ -24,7 +24,25 @@ export const ContainerMenu = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
+  width: 55%;
+
+  .Select-placeholder {
+    color: ${styles.colors.white} !important;
+  }
+
+  .Select-arrow-zone {
+    color: ${styles.colors.white} !important;
+  }
+
+  input {
+    color: ${styles.colors.white} !important;
+  }
+
+  span {
+    font-size: ${styles.fonts.fontSizeSmall}px;
+    font-weight: ${styles.weights.fontWeightThin};
+    color: ${styles.colors.white} !important;
+  }
 `;
 
 export const Image = styled.img.attrs({

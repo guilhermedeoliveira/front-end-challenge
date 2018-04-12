@@ -15,9 +15,9 @@ export const sells = [
 ];
 
 export const phones = [
-  { label: 'Telefone 01', value: 'Telefone 01' },
-  { label: 'Telefone 02', value: 'Telefone 02' },
-  { label: 'Telefone 03', value: 'Telefone 03' }
+  { label: 'TELEFONE 01', value: 'TELEFONE 01' },
+  { label: 'TELEFONE 02', value: 'TELEFONE 02' },
+  { label: 'TELEFONE 03', value: 'TELEFONE 03' }
 ];
 
 export const dropdownStyles = {
