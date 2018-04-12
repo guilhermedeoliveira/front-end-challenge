@@ -25,7 +25,7 @@ export const ContainerMenu = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 55%;
-
+    
   .Select-placeholder {
     color: ${styles.colors.white} !important;
   }

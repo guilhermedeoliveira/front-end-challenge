@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
+import { array, string } from 'prop-types';
 import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 
 import { dropdownStyles } from './navbarData';
 
 class NavbarDropdown extends Component {
+  static propTypes = {
+    data: array.isRequired,
+    placeholder: string.isRequired
+  }
+
   state = { selectedOption: '' }
 
   handleChange = (selectedOption) => this.setState({ selectedOption });
 
   render() {
+    const { data, placeholder } = this.props;
     const { selectedOption } = this.state;
     const value = selectedOption && selectedOption.value;
 
@@ -18,10 +25,10 @@ class NavbarDropdown extends Component {
         name="dropdown"
         style={dropdownStyles}
         clearable={false}
-        options={this.props.data}
+        options={data}
         value={value}
         onChange={this.handleChange}
-        placeholder="NOSSOS VEÍCULOS"
+        placeholder={placeholder}
       />
     );
   }

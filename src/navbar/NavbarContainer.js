@@ -24,10 +24,10 @@ class CarouselContainer extends Component {
           <Image image={grandMotors} alt="Logo Grand Motors" scale={0.8} />
         </ContainerLogoGrandMotors>
         <ContainerMenu>
-          <NavbarDropdown data={cars} />
+          <NavbarDropdown data={cars} placeholder="NOSSOS VEÍCULOS" />
           <Services>SERVIÇOS</Services>        
-          <NavbarDropdown data={sells} />
-          <NavbarDropdown data={phones} />
+          <NavbarDropdown data={sells} placeholder="VENDAS DIRETAS" />
+          <NavbarDropdown data={phones} placeholder="TELEFONES" />
         </ContainerMenu>
         <ContainerLogoToyota>
           <Image image={toyota} alt="Logo Toyota" scale={0.6} />

@@ -26,6 +26,4 @@ export const dropdownStyles = {
   color: styles.colors.white,
   backgroundColor: styles.colors.transparent,
   borderWidth: 0
-
-  // border: '2px solid green',
 };
