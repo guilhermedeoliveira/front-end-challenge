@@ -26,7 +26,7 @@ const ShowcaseContainer = () => (
   <Container>
     <Video autoPlay loop muted>
       <source src={carVideo} type="video/mp4" />
-    </Video> 
+    </Video>
     <FormContainer />
     <ContainerRight>
       <ContainerDescription>
@@ -36,7 +36,7 @@ const ShowcaseContainer = () => (
         <OldPrice>de <SpanOldPrice>R$ 44.120,00</SpanOldPrice></OldPrice>
         <NewPrice>por R$ 40.987,00</NewPrice>
         <Conditions>*Consulte as condições comerciais</Conditions>
-        </ContainerDescription>
+      </ContainerDescription>
       <ContainerShare>
         <TextLike>Gostou? Então compartilhe.</TextLike>
         <ContainerFacebook>
@@ -44,7 +44,11 @@ const ShowcaseContainer = () => (
           <Social text="Like" number="229k" />
         </ContainerFacebook>
         <TextIllustrativeImages>
-          *Imagens meramente ilustrativas. Alguns ítens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 31/07/2015. Os preços poderão ser modificados sem avido prévio. Consulte e confirme todas as informações com um de nossos vendedores.
+          *Imagens meramente ilustrativas.
+          Alguns ítens apresentados poderão não estar disponíveis nas versões.
+          Preços sugeridos e válidos até 31/07/2015.
+          Os preços poderão ser modificados sem avido prévio.
+          Consulte e confirme todas as informações com um de nossos vendedores.
         </TextIllustrativeImages>
       </ContainerShare>
     </ContainerRight>

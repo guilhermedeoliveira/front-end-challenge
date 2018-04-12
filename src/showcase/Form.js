@@ -23,7 +23,11 @@ class Form extends Component {
   }
 
   handleSubmit = (event) => {
-    const { name, email, phone, value } = this.state;
+    const {
+      name, email,
+      phone, value
+    } = this.state;
+
     alert(`'name', ${name}, 'email', ${email}, 'phone', ${phone}, 'value', ${value}`);
     event.preventDefault();
   }

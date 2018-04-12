@@ -22,12 +22,11 @@ const Social = ({ text, number }) => (
       <Counting>{number}</Counting>
     </ItemCounting>
   </ContainerSocial>
-  
 );
 
-Social.defaultProps = {
-  text: string.isRequired,
-  number: string.isRequired
-}
+Social.propTypes = {
+  text: string.isRequired, // eslint-disable-line
+  number: string.isRequired // eslint-disable-line
+};
 
 export default Social;
