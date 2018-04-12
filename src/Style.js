@@ -1,4 +1,4 @@
-import { lighten, darken } from 'polished'
+import { lighten, darken } from 'polished';
 
 const fontSizeBase = 14;
 
@@ -38,4 +38,4 @@ export default {
     colorBackgroundLight: lighten(0.08, '#2a2a2a'),
     colorBackgroundDark: darken(0.15, '#2a2a2a')
   }
-}
+};

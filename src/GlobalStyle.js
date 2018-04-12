@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+/* eslint-disable */
 
-import { injectGlobal } from 'styled-components';
+import styled, { injectGlobal } from 'styled-components';
 
 injectGlobal`
   html,
