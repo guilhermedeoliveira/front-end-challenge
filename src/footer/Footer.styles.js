@@ -66,7 +66,7 @@ export const SocialLink = styled.a.attrs({
 
 SocialLink.defaultProps = {
   link: 'https://google.com'
-}
+};
 
 export const TextFooter = styled.h3`
   font-size: ${styles.fonts.fontSizeSmall}px;
