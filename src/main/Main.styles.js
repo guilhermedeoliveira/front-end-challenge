@@ -4,7 +4,7 @@ import styles from '../Style';
 
 export const Container = styled.section`
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   padding: 0;
   padding-bottom: 1em;
 `;
@@ -16,7 +16,7 @@ export const Video = styled.video`
   width: auto;
   height: auto;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 140%;
   z-index: -1;
   transform: translate(-50%, -50%);
 `;

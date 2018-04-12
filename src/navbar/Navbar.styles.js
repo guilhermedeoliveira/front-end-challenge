@@ -9,9 +9,9 @@ export const Container = styled.nav`
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: gray;
   padding-left: 13em;
   height: 5em;
+  background-color: transparent;
 `;
 
 export const ContainerLogoGrandMotors = styled.div`

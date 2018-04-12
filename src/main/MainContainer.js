@@ -22,13 +22,11 @@ import {
 
 import carVideo from '../assets/videos/video-toyota.mp4';
 
-import Navbar from '../navbar/NavbarContainer';
-
 const MainContainer = () => (
   <Container>
     <Video autoPlay loop muted>
       <source src={carVideo} type="video/mp4" />
-    </Video>
+    </Video> 
     <FormContainer />
     <ContainerRight>
       <ContainerDescription>
