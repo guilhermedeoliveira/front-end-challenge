@@ -1444,7 +1444,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5:
+classnames@^2.2.4, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -4356,10 +4356,6 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"lint@eslint ./src --cache --ignore-pattern .gitignore":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/lint/-/lint-1.1.2.tgz#35ed064f322547c331358d899868664968ba371f"
-
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -5550,10 +5546,6 @@ pretty-format@^20.0.3:
     ansi-regex "^2.1.1"
     ansi-styles "^3.0.0"
 
-primereact@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/primereact/-/primereact-1.5.0.tgz#4b75d622738573fa5b8130019ce57871246dc9ba"
-
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -5742,12 +5734,6 @@ react-dom@^16.3.1:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-dropdown@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/react-dropdown/-/react-dropdown-1.4.0.tgz#ea88d4846e9b6da249784107b0f9135248fa88a3"
-  dependencies:
-    classnames "^2.2.3"
-
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
@@ -5836,12 +5822,6 @@ react-slick@^0.23.1:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
-
-react-table@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/react-table/-/react-table-6.8.0.tgz#5ce402eb735df68534c03dabb3faa031478b6a58"
-  dependencies:
-    classnames "^2.2.5"
 
 react@^16.3.1:
   version "16.3.1"
