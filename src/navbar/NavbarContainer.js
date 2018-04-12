@@ -21,7 +21,9 @@ class CarouselContainer extends Component {
     return (
       <Container>
         <ContainerLogoGrandMotors>
-          <Image image={grandMotors} alt="Logo Grand Motors" scale={0.8} />
+          <a target="_blank" href="https://www.grandbrasil.com.br/toyota">
+            <Image image={grandMotors} alt="Logo Grand Motors" scale={0.8} />
+          </a>
         </ContainerLogoGrandMotors>
         <ContainerMenu>
           <NavbarDropdown data={cars} placeholder="NOSSOS VEÍCULOS" />
@@ -30,7 +32,9 @@ class CarouselContainer extends Component {
           <NavbarDropdown data={phones} placeholder="TELEFONES" />
         </ContainerMenu>
         <ContainerLogoToyota>
-          <Image image={toyota} alt="Logo Toyota" scale={0.6} />
+          <a target="_blank" href="https://www.toyota.com.br/">
+            <Image image={toyota} alt="Logo Toyota" scale={0.6} />
+          </a>
         </ContainerLogoToyota>
       </Container>
     );
