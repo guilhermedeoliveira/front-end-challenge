@@ -8,7 +8,12 @@ import {
   Text
 } from './Call.styles';
 
-const Call = ({ header, main, text, isBordered }) => (
+const Call = ({
+  header,
+  main,
+  text,
+  isBordered
+}) => (
   <ContainerCall isBordered={isBordered}>
     <Header>{header}</Header>
     <Main>{main}</Main>
@@ -17,9 +22,9 @@ const Call = ({ header, main, text, isBordered }) => (
 );
 
 Call.propTypes = {
-  header: string.isRequired,
-  main: string.isRequired,
-  text: string.isRequired,
+  header: string.isRequired, // eslint-disable-line
+  main: string.isRequired, // eslint-disable-line
+  text: string.isRequired, // eslint-disable-line
   isBordered: bool
 };
 

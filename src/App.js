@@ -19,5 +19,5 @@ const App = () => (
     <FooterContainer />
   </LandingContainer>
 );
-  
+
 export default App;
