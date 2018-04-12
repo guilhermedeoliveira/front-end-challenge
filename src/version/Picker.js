@@ -5,9 +5,9 @@ import {
   ContainerLeft,
   ContainerItem,
   Title
-} from './Info.styles';
+} from './Version.styles';
 
-import { tableItems } from './infoData';
+import { tableItems } from './versionData';
 import styles from '../Style';
 
 class Picker extends Component {

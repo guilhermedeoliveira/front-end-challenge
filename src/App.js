@@ -5,9 +5,7 @@ import { LandingContainer } from './GlobalStyle';
 import HeaderContainer from './header/HeaderContainer';
 import ShowcaseContainer from './showcase/ShowcaseContainer';
 import CallContainer from './call/CallContainer';
-
-// import InfoContainer from './info/InfoContainer';
-import InfoContainer from './info/InfoContainer';
+import VersionContainer from './version/VersionContainer';
 
 // import CarouselContainer from './carousel/CarouselContainer';
 import CarouselContainer from './carousel/CarouselContainer';
@@ -19,7 +17,7 @@ const App = () => (
     <HeaderContainer />
     <ShowcaseContainer />
     <CallContainer />
-    <InfoContainer />
+    <VersionContainer />
     <CarouselContainer />
     <FooterContainer />
   </LandingContainer>

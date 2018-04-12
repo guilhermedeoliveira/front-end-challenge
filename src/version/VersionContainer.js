@@ -11,9 +11,9 @@ import {
   ContainerTable,
   TableTitle,
   TitleSerieItems
-} from './Info.styles';
+} from './Version.styles';
 
-class InfoContainer extends Component {
+class VersionContainer extends Component {
   render() {
     return (
       <Container>
@@ -33,4 +33,4 @@ class InfoContainer extends Component {
   }
 }
 
-export default InfoContainer;
+export default VersionContainer;

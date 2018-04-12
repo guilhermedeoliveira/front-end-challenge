@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { serieItems } from './infoData';
+import { serieItems } from './versionData';
 
-import { Chip } from './Info.styles';
+import { Chip } from './Version.styles';
 
 const SerieItems = () => {
   return (serieItems.map((data, i) => (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { tableData } from './infoData';
+import { tableData } from './versionData';
 
 import {
   ContainerTableData,
@@ -9,7 +9,7 @@ import {
   ContainerTableSpecs,
   RowDesc,
   RowSpecs
-} from './Info.styles';
+} from './Version.styles';
 
 const Table = () => {
   return (tableData.map((data, i) => (
